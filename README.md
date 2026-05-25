@@ -10,9 +10,10 @@ Bot WhatsApp automatisé utilisant [whatsapp-web.js](https://github.com/pedroslo
 ## Installation
 
 ```bash
-git clone https://github.com/VOTRE_USERNAME/VOTRE_REPO.git
-cd VOTRE_REPO
+git clone https://github.com/DaddyChocolat/whatsapp-bot.git
+cd whatsapp-bot
 npm install
+node index.js
 ```
 
 ## Configuration
@@ -20,7 +21,7 @@ npm install
 Ouvrez `index.js` et remplacez le numéro par le vôtre (format international, sans `+` ni zéros) :
 
 ```js
-const MON_NUMERO = "237681716051"; // Exemple pour le Cameroun
+const MON_NUMERO = "2376818181"; // Exemple pour le Cameroun
 ```
 
 ## Lancement
